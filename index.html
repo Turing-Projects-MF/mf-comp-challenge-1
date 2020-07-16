@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Favorite Video Games</title>
+    <title id="titleLine">Favorite Video Games</title>
   </head>
   <body>
     <section>
-      <div class="titleArea">
+      <header class="titleArea"> <!-- background image in css -->
         <a href="LOGIN LINK">
           <img alt="LOGIN DESCRIPTION" src="IMG" Width="150" height="70"> <!--top right-->
         </a>
-        <h1>Favorite Video Games</h1> <!-- centered, why does it have link? -->
+        <h1>Favorite Video Games</h1>
         <a href="LINK 1">
           <img alt="DESCRIPTION 1" src="IMG URL" width="150" height="70">
         </a>
@@ -19,35 +19,29 @@
         <a href="LINK 3">
           <img alt="DESCRIPTION 3" src="IMG URL" Width="150" height="70">
         </a>
-      </div>
+      </header>
     </section>
     <section>
-      <p>Your current TOP 8:</p>
+      <h1 id="introLine">Your current TOP 8:</h1>
       <div class="gameLineup">
-        <div class="gameOne">
+        <article class="gameOne">
           <img src="URL" alt="DESCRIPTION" width="500" height="600">
-        </div>
-        <div class="gameTwo">
-          <img src="URL" alt="DESCRIPTION" width="500" height="600">
-        </div>
-        <div class="gameThree">
-          <img src="URL" alt="DESCRIPTION" width="500" height="600">
-        </div>
-        <div class="gameFour">
-          <img src="URL" alt="DESCRIPTION" width="500" height="600">
-        </div>
-        <div class="gameFive">
-          <img src="URL" alt="DESCRIPTION" width="500" height="600">
-        </div>
-        <div class="gameSix">
-          <img src="URL" alt="DESCRIPTION" width="500" height="600">
-        </div>
-        <div class="gameSeven">
-          <img src="URL" alt="DESCRIPTION" width="500" height="600">
-        </div>
-        <div class="gameEight">
-          <img src="URL" alt="DESCRIPTION" width="500" height="600">
-        </div>
+          <div>
+            <div class="nameContainer">
+              <h5 class="nameStyling">Game Name/ recipeints name</h5>
+              <p>date info</p>
+            </div>
+            <a class="boxLink1" href="URL">hyperlink here</a>
+            <div class="playlistContainer">
+              <h5 class="detailHeading">Playlist Info</h5>
+              <p>name of playlsit</p>
+            </div>
+            <div class="attachementsContainer">
+              <h5 class="detailHeading">Attachements</h5>
+              <p>number area</p>
+            </div>
+          </div>
+        </article>
       </div>
     </section>
   </body>
