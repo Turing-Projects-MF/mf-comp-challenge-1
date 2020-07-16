@@ -1,0 +1,57 @@
+.entirePage {
+  display: flex;
+  flex-direction: column;
+  max-width: 1400px; /*good size?*/
+}
+
+.titleArea {
+  background-color: purple; /*find image */
+
+}
+
+#titleIntro {
+  text-align: center;
+}
+
+.loginText {
+  text-align: right;  /*not working*/
+}
+
+.gameLineup {
+  background-color: grey; /*find image*/
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* or split into another <div>?*/
+}
+
+.gameOne {
+  flex: 22%
+}
+
+.gameTwo {
+  flex: 22%;
+}
+
+.gameThree {
+  flex: 22%;
+}
+
+.gameFour {
+  flex: 22%
+}
+
+.gameFive {
+  flex: 22%;
+}
+
+.gameSix {
+  flex: 22%;
+}
+
+.gameSeven {
+  flex: 22%;
+}
+
+.gameEight {
+  flex: 22%;
+}
