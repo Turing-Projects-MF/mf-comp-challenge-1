@@ -14,7 +14,8 @@
 }
 
 .loginText {
-  text-align: right;  /*not working*/
+  display: flex;
+  justify-content: flex-end;
 }
 
 .gameLineup {
