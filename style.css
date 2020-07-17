@@ -10,6 +10,8 @@
 
 #titleIntro {
   text-align: center;
+  font-family: Papyrus, fantasy;
+  font-size: 35px;
 }
 
 .loginIcon {
@@ -23,16 +25,18 @@
   color: black;
 }
 
-.externalLink {
-  /*not moving the icons*/
-}
-
 .gameLineup {
   background-image: url("https://i.imgur.com/pP8CsFR.png");
   display: flex;
   background-size: cover;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+.metaScore1 {
+  display: flex;
+  justify-content: flex-end;
+  zoom: 44%
 }
 
 .backgroundImageOne {
@@ -62,6 +66,13 @@
   align-items: center;
   margin-bottom: 1em;
 }
+
+.metaScore2 {
+  display: flex;
+  justify-content: flex-end;
+  zoom: 41%
+}
+
 .backgroundImageTwo {
   background-image: url("https://i.imgur.com/4J4gpyE.jpg");
   background-size: cover;
@@ -180,11 +191,10 @@
   }
 
   #introLine {
-    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    background-image: linear-gradient(to left, violet, indigo, blue, green, gold, orange, red);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 0px;
-    color: white;
     text-align: center;
 
   }
