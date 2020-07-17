@@ -26,7 +26,7 @@
 }
 
 .gameLineup {
-  background-image: url("https://i.imgur.com/pP8CsFR.png");
+  background-image: url("https://i.imgur.com/F9ETsSG.jpg");
   display: flex;
   background-size: cover;
   justify-content: space-around;
@@ -45,6 +45,7 @@
   width: 17.2em;
   height: 21.9em;
   position: relative;
+  opacity: 0.8;
   /* filter: blur(1px);
   -webkit-filter: blur(1px) */
 }
@@ -64,7 +65,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
+  margin-top: 2em;
 }
 
 .metaScore2 {
@@ -79,6 +81,7 @@
   width: 17.2em;
   height: 21.9em;
   margin-bottom: 1em;
+  opacity: 0.8;
 }
 
 .gameTwo {
@@ -86,6 +89,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 2em;
+  margin-top: 2em;
 }
 
 .metaScore3 {
@@ -100,6 +105,7 @@
   width: 17.2em;
   height: 21.9em;
   margin-bottom: 1em;
+  opacity: 0.8;
 }
 
 .gameThree {
@@ -107,6 +113,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 2em;
+  margin-top: 2em;
 }
 
 .metaScore4 {
@@ -120,6 +128,7 @@
   background-size: cover;
   width: 17.2em;
   height: 21.9em;
+  opacity: 0.8;
 }
 
 .gameFour {
@@ -127,20 +136,22 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
+  margin-top: 2em;
 }
 
 .metaScore5 {
   display: flex;
   justify-content: flex-end;
-  zoom: 47%
+  zoom: 43%
 }
 
 .backgroundImageFive {
-  background-image: url("https://i.imgur.com/jCauaOi.jpg");
+  background-image: url("https://i.imgur.com/uYVkFB4.jpg");
   background-size: cover;
   width: 17.2em;
   height: 21.9em;
+  opacity: 0.8;
 }
 
 .gameFive {
@@ -148,7 +159,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
+  margin-top: 2em;
 }
 
 .metaScore6 {
@@ -162,6 +174,7 @@
   background-size: cover;
   width: 17.2em;
   height: 21.9em;
+  opacity: 0.8;
 }
 
 .gameSix {
@@ -169,7 +182,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
+  margin-top: 2em;
 }
 
 .metaScore7 {
@@ -183,6 +197,7 @@
   background-size: cover;
   width: 17.2em;
   height: 21.9em;
+  opacity: 0.8;
 }
 
 .gameSeven {
@@ -190,7 +205,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
+  margin-top: 2em;
 }
 
 .metaScore8 {
@@ -205,6 +221,7 @@
   background-size: cover;
   width: 17.2em;
   height: 21.9em;
+  opacity: 0.8;
 }
 
 .gameEight {
@@ -212,7 +229,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
+  margin-top: 2em;
 }
 
 @media (max-width: 900px) {
@@ -229,8 +247,9 @@
 
   #introLine {
     background-image: linear-gradient(to left, violet, indigo, blue, green, gold, orange, red);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: black;
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
     margin: 0px;
     text-align: center;
 
