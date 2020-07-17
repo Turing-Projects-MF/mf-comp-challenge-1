@@ -18,8 +18,9 @@
 }
 
 #introLine {
-  background-image: url("https://i.imgur.com/pP8CsFR.png");
   margin: 0px;
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  color: black;
 }
 
 .externalLink {
@@ -179,10 +180,12 @@
   }
 
   #introLine {
-    background-image: none !important;
-    background-color: black;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin: 0px;
     color: white;
     text-align: center;
+
   }
 }
