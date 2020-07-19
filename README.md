@@ -42,4 +42,4 @@ The website is responsive and works across mobile devices! The external links im
 
 #### Site responsiveness
 
-![alt-text](https://media.giphy.com/media/hV7T0rehmjTfRY9Gbk/giphy.gif)
+![alt-text](https://media.giphy.com/media/cInlLFl7NMoZo2FiPS/giphy.gif)
