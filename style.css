@@ -40,7 +40,8 @@
 }
 
 .gameLineup {
-  background-image: url("https://i.imgur.com/F9ETsSG.jpg");
+  /* background-image: url("https://i.imgur.com/F9ETsSG.jpg"); */
+  background-color: black;
   display: flex;
   background-size: auto;
   justify-content: space-around;
@@ -62,12 +63,13 @@
 }
 
 .nameStyling {
-  -webkit-text-stroke: 1px black;
-  font-family: sans;
+  -webkit-text-stroke: .6px black;
+  font-family: sans-serif;
   color: yellow;
-  zoom: 135%;
+  zoom: 120%;
   display: flex;
   justify-content: center;
+  padding-bottom: 2em;
 }
 
 .boxLink1 {
@@ -77,6 +79,31 @@
   font-weight: bolder;
   display: flex;
   justify-content: center;
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-bottom: 5em;
+}
+
+.releaseDate {
+  -webkit-text-stroke: 1px black;
+  font-family: sans-serif;
+  color: yellow;
+  margin-left: 3em;
+
+}
+
+.genre {
+  -webkit-text-stroke: .7px black;
+  font-family: sans-serif;
+  color: red;
+  margin-left: 3em;
+}
+
+.numPlayer {
+  -webkit-text-stroke: .7px black;
+  font-family: sans-serif;
+  color: red;
+  margin-left: 3em;
 }
 
 .gameOne {
@@ -166,7 +193,7 @@
 }
 
 .backgroundImageFive {
-  background-image: url("https://i.imgur.com/uYVkFB4.jpg");
+  background-image: url("https://i.imgur.com/6e1JbtQ.jpg");
   background-size: cover;
   width: 17.2em;
   height: 21.9em;
