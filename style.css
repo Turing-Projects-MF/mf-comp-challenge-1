@@ -1,7 +1,6 @@
- .entirePage {
+.entirePage {
   display: flex;
   flex-direction: column;
-  max-width: 87.5em;
 }
 
 .titleArea {
