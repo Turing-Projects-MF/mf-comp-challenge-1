@@ -30,4 +30,4 @@ The biggest win was just getting all of gaps cleaned up and finally having the m
 
 The website is responsive and works across mobile devices! The external links image changes when it goes from desktop to mobile to provide a better user experience across platforms.
 
-![alt-text](http://www.giphy.com/gifs/Uqqb5k83rL6NORAnxo)
+![alt-text](https://media.giphy.com/media/hV7T0rehmjTfRY9Gbk/giphy.gif)
